@@ -1,0 +1,58 @@
+/* fonts
+
+font-family: 'Sedgwick Ave', cursive;
+
+<span class="material-symbols-outlined">
+add
+</span>
+
+*/
+
+* {
+    border: 1px solid red;
+    background-color: #15181f;
+    color: rgb(255, 183, 0);
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: 30px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+#containerMain {
+    display: flex;
+    flex-direction: row;
+    border: 3px solid green;
+}
+
+p {
+    font-size: 20px;
+}
+
+#addTaskButton:hover {
+    font-size: 40px;
+    color: white;
+}
+
+.buttons {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#containerPopup {
+    display: none;
+
+}
